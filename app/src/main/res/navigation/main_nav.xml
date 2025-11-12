@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/starteFragment"
-        android:name="com.example.e_practice.starteFragment"
+        android:name="com.example.e_practice.view.starteFragment"
         android:label="fragment_starte"
         tools:layout="@layout/fragment_starte" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.e_practice.loginFragment"
+        android:name="com.example.e_practice.view.loginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/signFragment"
-        android:name="com.example.e_practice.signFragment"
+        android:name="com.example.e_practice.view.signFragment"
         android:label="fragment_sign"
         tools:layout="@layout/fragment_sign" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.example.e_practice.dashboardFragment"
+        android:name="com.example.e_practice.view.dashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 </navigation>
